@@ -95,7 +95,7 @@ def show_home():
     db = SQLDatabase.from_uri(f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}")
 
     llm = ChatGroq(
-        api_key="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",
+        api_key="",
         model="llama3-70b-8192",
         temperature=0
     )
